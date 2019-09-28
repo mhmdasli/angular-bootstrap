@@ -1,0 +1,17 @@
+<div class="container-fluid">
+
+    <div id="login-form" class="row">
+        <!-- Login Form -->
+        <div class="col-sm-12">
+            <form ng-submit="submit()">
+                <label for="password">Type Your Password</label>
+                <input ng-model="password" type="password" id="password" class="form-control" name="password" placeholder="password:123">
+                <p class="text-danger">{{message}}</p>
+                <input type="submit" class="btn btn-primary btn-block mt-3" value="Log In">
+
+            </form>
+        </div>
+        <!-- Login Form -->
+    </div>
+
+</div>
